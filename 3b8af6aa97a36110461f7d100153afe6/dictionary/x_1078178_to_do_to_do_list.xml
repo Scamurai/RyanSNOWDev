@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="To do" max_length="40" name="x_1078178_to_do_to_do_list" type="collection">
+    <element audit="true" extends="task" label="To do" max_length="40" name="x_1078178_to_do_to_do_list" sizeclass="1" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Due Date" mandatory="true" max_length="40" name="u_calendar_date_time_2" type="calendar_date_time"/>
+        <element attributes="encode_utf8=false" label="Assigned To" mandatory="true" max_length="32" name="u_to_do_assigned_to" reference="sys_user" type="reference"/>
         <element label="Due date" mandatory="true" max_length="40" name="u_to_do_due_date" type="due_date"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="low_importance" label="Importance" mandatory="true" max_length="40" name="u_to_do_importance" type="string">
             <choice>
