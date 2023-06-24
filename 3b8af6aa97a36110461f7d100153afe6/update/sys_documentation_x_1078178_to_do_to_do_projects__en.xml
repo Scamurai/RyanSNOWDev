@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="To do" language="en" table="x_1078178_to_do_to_do_list">
+    <sys_documentation element="" label="To do Projects" language="en" table="x_1078178_to_do_to_do_projects">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element/>
             <help/>
             <hint/>
-            <label>To do</label>
+            <label>To do Projects</label>
             <language>en</language>
-            <name>x_1078178_to_do_to_do_list</name>
-            <plural>To dos</plural>
+            <name>x_1078178_to_do_to_do_projects</name>
+            <plural>To do Projects</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-06-23 19:53:21</sys_created_on>
-            <sys_id>657c76ae97a36110461f7d100153af64</sys_id>
+            <sys_created_on>2023-06-23 22:02:42</sys_created_on>
+            <sys_id>181a57aa97276110461f7d100153afe7</sys_id>
             <sys_mod_count>1</sys_mod_count>
-            <sys_name>To do</sys_name>
+            <sys_name>To do Projects</sys_name>
             <sys_package display_value="To do" source="x_1078178_to_do">3b8af6aa97a36110461f7d100153afe6</sys_package>
             <sys_policy/>
             <sys_scope display_value="To do">3b8af6aa97a36110461f7d100153afe6</sys_scope>
-            <sys_update_name>sys_documentation_x_1078178_to_do_to_do_list__en</sys_update_name>
+            <sys_update_name>sys_documentation_x_1078178_to_do_to_do_projects__en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-06-23 21:50:29</sys_updated_on>
+            <sys_updated_on>2023-06-23 22:03:07</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

@@ -1,3 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="To do list" max_length="40" name="x_1078178_to_do_to_do_list" type="collection"/>
+    <element audit="true" extends="task" label="To do" max_length="40" name="x_1078178_to_do_to_do_list" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Due Date" mandatory="true" max_length="40" name="u_calendar_date_time_2" type="calendar_date_time"/>
+        <element label="Due date" mandatory="true" max_length="40" name="u_to_do_due_date" type="due_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="low_importance" label="Importance" mandatory="true" max_length="40" name="u_to_do_importance" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Low Importance" sequence="0" value="low_importance"/>
+                <element inactive_on_update="false" label="Medium Importance" sequence="1" value="high_importance"/>
+                <element inactive_on_update="false" label="High Importance" sequence="2" value="high importance"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="not_started" label="Progress" mandatory="true" max_length="40" name="u_to_do_progress" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Not Started" sequence="0" value="not_started"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="in_progress"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
+                <element inactive_on_update="false" label="Canceled" sequence="3" value="canceled"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Project Name" max_length="32" name="u_to_do_project_name" reference="x_1078178_to_do_to_do_projects" type="reference"/>
+        <element label="Send reminder" max_length="40" name="u_to_do_send_reminder" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Task Summary" mandatory="true" max_length="100" name="u_to_do_task_description" type="string"/>
+    </element>
 </database>

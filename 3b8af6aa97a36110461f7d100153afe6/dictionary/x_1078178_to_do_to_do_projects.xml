@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element display="true" label="To do Projects" max_length="40" name="x_1078178_to_do_to_do_projects" type="collection">
+        <element attributes="edge_encryption_enabled=true" display="true" label="Project Name" mandatory="true" max_length="40" name="u_to_do_projects_project" type="string"/>
+    </element>
+</database>

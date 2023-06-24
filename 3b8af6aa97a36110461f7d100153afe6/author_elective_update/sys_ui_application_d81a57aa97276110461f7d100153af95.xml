@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="DELETE">
+        <active>true</active>
+        <hint/>
+        <name>To Do Projects</name>
+        <order/>
+        <roles>x_1078178_to_do.to_do_projects_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-23 22:02:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d81a57aa97276110461f7d100153af95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>To Do Projects</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="To do" source="x_1078178_to_do">3b8af6aa97a36110461f7d100153afe6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="To do">3b8af6aa97a36110461f7d100153afe6</sys_scope>
+        <sys_update_name>sys_ui_application_d81a57aa97276110461f7d100153af95</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-23 22:02:42</sys_updated_on>
+    </sys_ui_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="To do">3b8af6aa97a36110461f7d100153afe6</application>
+        <file_path/>
+        <instance_id>62565d63db30fb4091232f17d49619d3</instance_id>
+        <instance_name>dev82180</instance_name>
+        <name>sys_ui_application_d81a57aa97276110461f7d100153af95</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>To Do Projects</name><order/><roles>x_1078178_to_do.to_do_projects_user</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-23 22:02:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d81a57aa97276110461f7d100153af95</sys_id><sys_mod_count>0</sys_mod_count><sys_name>To Do Projects</sys_name><sys_overrides/><sys_package display_value="To do" source="x_1078178_to_do">3b8af6aa97a36110461f7d100153afe6</sys_package><sys_policy/><sys_scope display_value="To do">3b8af6aa97a36110461f7d100153afe6</sys_scope><sys_update_name>sys_ui_application_d81a57aa97276110461f7d100153af95</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-23 22:02:42</sys_updated_on></sys_ui_application></record_update>]]></payload>
+        <payload_hash>1530540104</payload_hash>
+        <record_name>To Do Projects</record_name>
+        <reverted_from/>
+        <source>e4b08bee97a36110461f7d100153afb6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-23 22:02:42</sys_created_on>
+        <sys_id>101a57aa97276110461f7d100153af98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188ea47ec3f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-23 22:02:42</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>581a57aa9a276110892c39b29bfbe597</update_guid>
+        <update_guid_history>581a57aa9a276110892c39b29bfbe597:1530540104</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-23 22:05:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_application">sys_ui_application</sys_db_object>
+        <sys_id>3b697bb0531643b88d46a0cbe76d3ee4</sys_id>
+        <sys_metadata>d81a57aa97276110461f7d100153af95</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>To Do Projects</sys_name>
+        <sys_package display_value="To do" source="x_1078178_to_do">3b8af6aa97a36110461f7d100153afe6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="To do">3b8af6aa97a36110461f7d100153afe6</sys_scope>
+        <sys_scope_delete display_value="">412cf2cdaa254e609e47347446b96c40</sys_scope_delete>
+        <sys_update_name>sys_ui_application_d81a57aa97276110461f7d100153af95</sys_update_name>
+        <sys_update_version display_value="sys_ui_application_d81a57aa97276110461f7d100153af95">101a57aa97276110461f7d100153af98</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-23 22:05:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
